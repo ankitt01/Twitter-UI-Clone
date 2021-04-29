@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-top {
+  width: 85%;
+  background-color: pink;
+  margin-left: auto;
+  padding: 1em 7em;
+  border-top-right-radius: 8px;
+}
+
+.nav-links-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-links-top .links {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.nav-links-top .links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links-top .links .profile {
+  margin-left: auto;
+}
+
+.nav-links-top input {
+  margin: 0 150px;
+  width: 50%;
+  padding: 0.7em 0.7em 0.7em 4em;
+  border: none;
+}
+/*# sourceMappingURL=navbar.css.map */
