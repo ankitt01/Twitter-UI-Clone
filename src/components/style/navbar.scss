@@ -7,7 +7,7 @@
 $main-color: #55acee;
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .navbar-top {
-    width: 85%;
+    width: 87%;
     margin-left: auto;
     padding: 1em 7em;
     border-top-right-radius: 8px;
@@ -41,11 +41,59 @@ $main-color: #55acee;
             }
         }
     }
+    .search {
+        position: absolute;
+        right: 57%;
+    }
     input {
         margin: 0 150px;
         width: 50%;
         padding: 1em 0.7em 1em 4em;
         border: none;
         background-color: rgba(153, 153, 153, 0.1);
+    }
+}
+
+.navbar-left {
+    width: 13%;
+    position: absolute;
+    top: 5vh;
+    border-top-left-radius: 8px;
+    padding: 1em;
+    ul {
+        margin: 100px 0 100px 10px;
+        list-style-type: none;
+        li {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: rgb(128, 128, 128);
+                width: 100%;
+            }
+            .active {
+                color: $main-color;
+                font-weight: 600;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    height: 100%;
+                    width: 5px;
+                    background-color: $main-color;
+                }
+            }
+        }
+    }
+    button {
+        background-color: $main-color;
+        border: none;
+        border-radius: 30px;
+        padding: 1em 2em;
+        width: 100%;
+        color: white;
     }
 }

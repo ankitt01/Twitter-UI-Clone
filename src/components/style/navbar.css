@@ -7,7 +7,7 @@
 }
 
 .navbar-top {
-  width: 85%;
+  width: 87%;
   margin-left: auto;
   padding: 1em 7em;
   border-top-right-radius: 8px;
@@ -57,11 +57,70 @@
   border-radius: 50%;
 }
 
+.nav-links-top .search {
+  position: absolute;
+  right: 57%;
+}
+
 .nav-links-top input {
   margin: 0 150px;
   width: 50%;
   padding: 1em 0.7em 1em 4em;
   border: none;
   background-color: rgba(153, 153, 153, 0.1);
+}
+
+.navbar-left {
+  width: 13%;
+  position: absolute;
+  top: 5vh;
+  border-top-left-radius: 8px;
+  padding: 1em;
+}
+
+.navbar-left ul {
+  margin: 100px 0 100px 10px;
+  list-style-type: none;
+}
+
+.navbar-left ul li {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-left ul li a {
+  text-decoration: none;
+  color: gray;
+  width: 100%;
+}
+
+.navbar-left ul li .active {
+  color: #55acee;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar-left ul li .active::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #55acee;
+}
+
+.navbar-left button {
+  background-color: #55acee;
+  border: none;
+  border-radius: 30px;
+  padding: 1em 2em;
+  width: 100%;
+  color: white;
 }
 /*# sourceMappingURL=navbar.css.map */
