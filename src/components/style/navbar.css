@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +8,10 @@
 
 .navbar-top {
   width: 85%;
-  background-color: pink;
   margin-left: auto;
   padding: 1em 7em;
   border-top-right-radius: 8px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-links-top {
@@ -31,16 +32,36 @@
 .nav-links-top .links a {
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 
 .nav-links-top .links .profile {
-  margin-left: auto;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-links-top .links .profile span {
+  font-size: 14px;
+}
+
+.nav-links-top .links .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .nav-links-top input {
   margin: 0 150px;
   width: 50%;
-  padding: 0.7em 0.7em 0.7em 4em;
+  padding: 1em 0.7em 1em 4em;
   border: none;
+  background-color: rgba(153, 153, 153, 0.1);
 }
 /*# sourceMappingURL=navbar.css.map */

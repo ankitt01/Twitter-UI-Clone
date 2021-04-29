@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './style/navbar.css'
-
+import './style/navbar.css';
+import dp from './img/dp.jpg';
 class Navbar extends Component {
     render() { 
         return ( 
@@ -13,7 +13,7 @@ class Navbar extends Component {
                     <li className="links">
                         <div className="profile">
                             <span className="Greeting">Hey, John</span>
-                            {/* <img src="" alt=""/> */}
+                            <img src={dp} alt=""/>
                         </div>
                     </li>
                 </ul>
