@@ -1,0 +1,82 @@
+.profile-card {
+  width: 300px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 1.4em;
+  background-color: #fff;
+}
+
+.profile-card .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-card .head .dp {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0.3em;
+}
+
+.profile-card .head h3 {
+  color: gray;
+}
+
+.profile-card .head .tag {
+  font-size: 13px;
+  color: #a8a8a8;
+}
+
+.profile-card .head .loc {
+  font-size: 15px;
+}
+
+.profile-card .head .loc img {
+  margin: 0 10px;
+}
+
+.profile-card .head .desc {
+  font-size: 14px;
+}
+
+.profile-card .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.profile-card .stats p {
+  color: gray;
+  font-size: 13px;
+}
+
+.profile-card .stats .stat:nth-of-type(1), .profile-card .stats .stat:nth-of-type(2) {
+  border-right: 1px solid #cccccc;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=profilecard.css.map */

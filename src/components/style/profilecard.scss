@@ -1,0 +1,55 @@
+.profile-card {
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.4em;
+    background-color: #fff;
+    .head {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3em;
+        align-items: center;
+        justify-content: center;
+        .dp {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 0.3em;
+        }
+        h3 {
+            color: gray;
+        }
+        .tag {
+            font-size: 13px;
+            color: rgb(168, 168, 168);
+        }
+        .loc {
+            font-size: 15px;
+            img {
+                margin: 0 10px
+            }
+        }
+        .desc {
+            font-size: 14px;
+        }
+    }
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        p {
+            color: gray;
+            font-size: 13px;
+        }
+        .stat {
+            &:nth-of-type(1),
+            &:nth-of-type(2) {
+                border-right: 1px solid rgb(204, 204, 204);
+                padding-right: 20px;
+            }
+        }
+    }
+}
