@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './style/navbar.css';
-import dp from './img/dp.jpg';
 class Navbar extends Component {
     render() { 
         return ( 
-            <>
+            <div className="navbar">
                 <div className="navbar-top">
                     <ul className="nav-links-top">
                         <li className="links"><a href="/">About</a></li>
@@ -15,7 +14,7 @@ class Navbar extends Component {
                         <li className="links">
                             <div className="profile">
                                 <span className="Greeting">Hey, John</span>
-                                <img src={dp} alt="dp"/>
+                                <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="dp"/>
                             </div>
                         </li>
                     </ul>
@@ -35,7 +34,7 @@ class Navbar extends Component {
                     </ul>
                     <button className="tweet">Tweet</button>
                 </div>
-            </>
+            </div>
          );
     }
 }
