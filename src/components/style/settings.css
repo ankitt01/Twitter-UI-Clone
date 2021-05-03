@@ -1,0 +1,26 @@
+.setting-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  border: 2px solid #e7e7e7;
+  border-radius: 8px;
+  margin: 0.3em;
+}
+
+.setting-card p {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=settings.css.map */
