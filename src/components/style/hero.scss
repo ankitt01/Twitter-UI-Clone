@@ -17,5 +17,11 @@
     width: 90%;
     margin: 0 4em;
     position: absolute;
-    top: 21vh;
+    top: 18vh;
+}
+
+.setting-cards {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
