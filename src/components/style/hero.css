@@ -14,7 +14,7 @@
 
 .feed {
   width: 90%;
-  margin: 0 4em;
+  margin: 0 2em;
   position: absolute;
   top: 18vh;
   display: -ms-grid;
@@ -36,6 +36,8 @@
 .feed-posts {
   background-color: #fff;
   border-radius: 8px;
+  overflow: hidden;
+  height: 65vh;
 }
 
 .feed-posts .nav ul {
@@ -43,6 +45,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom: 1px solid #e6e6e6;
@@ -96,7 +101,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1em;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #ececec;
   border-radius: 8px;
 }
 
@@ -154,7 +159,7 @@
 }
 
 .feed-posts .feed-post .post-content .re-tweet {
-  border: 1px solid #cecece;
+  border: 1px solid #ececec;
   border-radius: 8px;
   margin: 1em 0;
   padding: 0.5em;
@@ -167,6 +172,13 @@
 .feed-posts .feed-post .post-content .re-tweet p {
   margin-top: 10px;
   font-size: 12px;
+}
+
+.feed-posts .feed-post .post-content .images img {
+  width: 30%;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-top: 1em;
 }
 
 .feed-posts .feed-post .post-content .post-footer {

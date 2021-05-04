@@ -65,8 +65,43 @@ class Hero extends Component {
                                         <span>426</span>
                                     </div>
                                     <div>
-                                    <img src="https://img.icons8.com/material-rounded/15/000000/share-3.png"/>
+                                        <img src="https://img.icons8.com/material-rounded/15/000000/share-3.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div className="feed-post">
+                            <img className="profile-pic" src="https://randomuser.me/api/portraits/men/11.jpg" alt="dp"/>
+                            <div className="post-content">
+
+                                <div className="post-info">
+                                    <p className="name">John Ramsey</p>
+                                    <p className="user-tag">@john_ram</p>
+                                    <p className="time"> <img src="https://img.icons8.com/pastel-glyph/12/000000/clock.png"/> 35 mins </p>
+                                </div>
+                                <span>Best views from vacations.  ❄ ⛄ ☃</span>
+                                <div className="images">
+                                    <img src="https://images.pexels.com/photos/2437286/pexels-photo-2437286.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""/>
+                                    <img src="https://images.pexels.com/photos/1035342/pexels-photo-1035342.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=""/>
+                                    <img src="https://images.pexels.com/photos/698275/pexels-photo-698275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""/>
+                                </div>
+
+                                <div className="post-footer">
+                                    <div>
+                                        <img src="https://img.icons8.com/material-outlined/18/000000/topic--v1.png"/>
+                                        <span>32</span>
+                                    </div>
+                                    <div>
+                                    <img src="https://img.icons8.com/material-rounded/18/000000/retweet.png"/>
+                                        <span>68</span>
+                                    </div>
+                                    <div>
+                                        <img src="https://img.icons8.com/metro/18/000000/like.png"/>
+                                        <span>426</span>
+                                    </div>
+                                    <div>
+                                        <img src="https://img.icons8.com/material-rounded/15/000000/share-3.png"/>
                                     </div>
                                 </div>
                             </div>

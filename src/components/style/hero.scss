@@ -15,7 +15,7 @@
 .feed {
     // background-color: blue;
     width: 90%;
-    margin: 0 4em;
+    margin: 0 2em;
     position: absolute;
     top: 18vh;
     display: grid;
@@ -33,10 +33,13 @@
 .feed-posts {
     background-color: #fff;
     border-radius: 8px;
+    overflow: hidden;
+    height: 65vh;
     .nav {
         ul {
             list-style-type: none;
             display: flex;
+            align-items: center;
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
             border-bottom: 1px solid rgb(230, 230, 230);
@@ -76,7 +79,7 @@
             display: flex;
             flex-direction: column;
             padding: 1em;
-            border: 1px solid rgb(224, 224, 224);
+            border: 1px solid rgb(236, 236, 236);
             border-radius: 8px;
             span {
                 display: flex;
@@ -112,7 +115,7 @@
                 }
             }
             .re-tweet {
-                border: 1px solid rgb(206, 206, 206);
+                border: 1px solid rgb(236, 236, 236);
                 border-radius: 8px;
                 margin: 1em 0;
                 padding: 0.5em;
@@ -122,6 +125,14 @@
                 p {
                     margin-top: 10px;
                     font-size: 12px;
+                }
+            }
+            .images {
+                img {
+                    width: 30%;
+                    border-radius: 8px;
+                    margin-right: 10px;
+                    margin-top: 1em;
                 }
             }
             .post-footer {
