@@ -17,6 +17,12 @@
   margin: 0 4em;
   position: absolute;
   top: 18vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 1em;
+  border-radius: 8px;
 }
 
 .setting-cards {
@@ -25,5 +31,170 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+}
+
+.feed-posts {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.feed-posts .nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.feed-posts .nav ul li {
+  padding: 0.7em;
+  color: gray;
+  font-size: 15px;
+}
+
+.feed-posts .nav ul li:nth-of-type(2) {
+  color: #55acee;
+  position: relative;
+}
+
+.feed-posts .nav ul li:nth-of-type(2)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #55acee;
+}
+
+.feed-posts .nav ul li:last-of-type {
+  margin-left: auto;
+}
+
+.feed-posts .feed-post {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 9fr;
+      grid-template-columns: 1fr 9fr;
+  padding: 1em;
+}
+
+.feed-posts .feed-post .profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.feed-posts .feed-post .post-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.feed-posts .feed-post .post-content span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: gray;
+  font-size: 13px;
+}
+
+.feed-posts .feed-post .post-content span img {
+  margin-right: 10px;
+}
+
+.feed-posts .feed-post .post-content .post-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feed-posts .feed-post .post-content .post-info .name {
+  font-size: 15px;
+}
+
+.feed-posts .feed-post .post-content .post-info .user-tag {
+  color: gray;
+  font-size: 12px;
+}
+
+.feed-posts .feed-post .post-content .post-info .time {
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.feed-posts .feed-post .post-content .post-info .re-tweet-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.feed-posts .feed-post .post-content .re-tweet {
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  margin: 1em 0;
+  padding: 0.5em;
+}
+
+.feed-posts .feed-post .post-content .re-tweet .name {
+  font-size: 15px;
+}
+
+.feed-posts .feed-post .post-content .re-tweet p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.feed-posts .feed-post .post-content .post-footer {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.feed-posts .feed-post .post-content .post-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  border-right: 1px solid #b9b9b9;
+  padding-right: 3em;
+}
+
+.feed-posts .feed-post .post-content .post-footer div:nth-last-of-type(1) {
+  border: none;
+}
+
+.feed-posts .feed-post .post-content .post-footer span {
+  font-size: 12px;
 }
 /*# sourceMappingURL=hero.css.map */
