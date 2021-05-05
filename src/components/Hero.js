@@ -4,6 +4,7 @@ import './style/hero.css';
 import ProfileCard from './profile-card';
 import Settings from './Settings';
 import Trends from './Trends';
+import Follow from './Follow';
 
 class Hero extends Component {
     state = {  }
@@ -124,8 +125,12 @@ class Hero extends Component {
                         <div className="suggestions">
                         <div className="head">
                                 <span> Trends for you</span>
-                                <img src="https://img.icons8.com/small/16/000000/gear.png"/>
+                                <img src="https://img.icons8.com/metro/13/000000/process.png"/>
                             </div>
+                            <Follow name="Kate Lingard" tag="kate_14"/>
+                            <Follow name="Crazy snowman" tag="crazy_snow"/>
+                            <Follow name="Sharpova" tag="sharpova"/>
+                            
                         </div>
                     </div>
                 </div>
