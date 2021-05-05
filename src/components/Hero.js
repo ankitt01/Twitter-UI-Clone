@@ -3,6 +3,7 @@ import banner from './img/banner.jpg';
 import './style/hero.css';
 import ProfileCard from './profile-card';
 import Settings from './Settings';
+import Trends from './Trends';
 
 class Hero extends Component {
     state = {  }
@@ -37,7 +38,7 @@ class Hero extends Component {
                                 <span><img src="https://img.icons8.com/material-rounded/15/000000/retweet.png"/>Leonardo retweeted</span>
 
                                 <div className="post-info">
-                                    <p className="name">John Ramsey</p>
+                                    <p className="name">John Ramsey</p><img src="https://img.icons8.com/color/15/000000/verified-badge.png"/>
                                     <p className="user-tag">@john_ram</p>
                                     <p className="time"> <img src="https://img.icons8.com/pastel-glyph/12/000000/clock.png"/> 35 mins </p>
                                 </div>
@@ -76,7 +77,7 @@ class Hero extends Component {
                             <div className="post-content">
 
                                 <div className="post-info">
-                                    <p className="name">John Ramsey</p>
+                                    <p className="name">John Ramsey</p><img src="https://img.icons8.com/color/15/000000/verified-badge.png"/>
                                     <p className="user-tag">@john_ram</p>
                                     <p className="time"> <img src="https://img.icons8.com/pastel-glyph/12/000000/clock.png"/> 35 mins </p>
                                 </div>
@@ -107,6 +108,25 @@ class Hero extends Component {
                             </div>
                         </div>
                         
+                    </div>
+                    <div className="trends">
+                        <div>
+                            <div className="head">
+                                <span> Trends for you</span>
+                                <img src="https://img.icons8.com/small/16/000000/gear.png"/>
+                            </div>
+                            <Trends tag="ecommerce" count="71.4k Tweets" />
+                            <Trends tag="apple" count="68.2k Tweets" />
+                            <Trends tag="uefa" count="63k Tweets" />
+                            <Trends tag="music" count="61k Tweets" />
+                            <span className="more">SEE MORE</span>
+                        </div>
+                        <div className="suggestions">
+                        <div className="head">
+                                <span> Trends for you</span>
+                                <img src="https://img.icons8.com/small/16/000000/gear.png"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

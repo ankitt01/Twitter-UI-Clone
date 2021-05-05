@@ -13,7 +13,7 @@
 }
 
 .feed {
-  width: 90%;
+  width: 95%;
   margin: 0 2em;
   position: absolute;
   top: 18vh;
@@ -208,5 +208,63 @@
 
 .feed-posts .feed-post .post-content .post-footer span {
   font-size: 12px;
+}
+
+.trends {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+.trends .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #e0e0e0;
+  color: #414141;
+}
+
+.trends .trend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  padding: 0.3em 0;
+}
+
+.trends .trend .info p:nth-of-type(2) {
+  color: gray;
+}
+
+.trends .trend img {
+  margin-right: 0.5em;
+}
+
+.trends .more {
+  color: gray;
+  font-size: 13px;
+  margin-left: 37%;
+}
+
+.suggestions {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 0.5em;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=hero.css.map */
